@@ -6,7 +6,7 @@
 #    By: vbleskin <vbleskin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/04 02:10:08 by vbleskin          #+#    #+#              #
-#    Updated: 2026/01/04 03:07:21 by vbleskin         ###   ########.fr        #
+#    Updated: 2026/01/04 03:35:07 by vbleskin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,7 @@ LIBFT_DIR		=	$(LIB_DIR)libft/
 SRC_FILES		=	main.c
 SRCS			=	$(addprefix $(SRC_DIR), $(SRC_FILES))
 OBJS			=	$(addprefix $(OBJ_DIR), $(SRC_FILES:.c=.o))
+LIBS			=	-L$(LIBFT_DIR) -lft
 
 # RULES
 
