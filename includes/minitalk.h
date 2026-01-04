@@ -6,14 +6,17 @@
 /*   By: vbleskin <vbleskin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/04 02:04:30 by vbleskin          #+#    #+#             */
-/*   Updated: 2026/01/04 04:04:06 by vbleskin         ###   ########.fr       */
+/*   Updated: 2026/01/05 00:01:24 by vbleskin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MINITALK_H
 # define MINITALK_H
 
-# define _POSIX_C_SOURCE 200809L
+# define _DEFAULT_SOURCE 
+
+# define _BSD_SOURCE
+# define _GNU_SOURCE
 
 # include "libft.h"
 # include <unistd.h>
