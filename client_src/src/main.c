@@ -6,7 +6,7 @@
 /*   By: vbleskin <vbleskin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/04 02:14:04 by vbleskin          #+#    #+#             */
-/*   Updated: 2026/01/05 00:08:56 by vbleskin         ###   ########.fr       */
+/*   Updated: 2026/01/07 13:10:59 by vbleskin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,5 +45,6 @@ int	main(int ac, char **av)
 		send_char(*msg, pid);
 		msg++;
 	}
+	send_char('\n', pid);
 	return (SUCCESS);
 }
